@@ -1,0 +1,90 @@
+sudo iptables -A INPUT -s 2xx.3x.1xx.0/24 -j DROP
+
+We can also use the command to block the range of IP addresses
+
+sudo iptables -A INPUT -m iprange --src-range 2xx.3x.1xx.0/24 -j DROP
+
+
+
+
+RUSSAIN
+
+Begin IP Address	End IP Address	Total Count
+2.20.253.0      2.20.255.255
+2.21.1.0	    2.21.6.255
+2.22.237.0  	2.22.237.255
+2.23.167.0  	2.23.167.255
+
+
+CHINA
+	
+Begin IP Address	End IP Address	
+1.0.1.0	    1.0.3.255	
+1.0.8.0	    1.0.15.255	
+1.0.32.0    1.0.63.255
+1.1.0.0	    1.1.0.255	
+
+
+KOREA
+
+Showing results for KOREA network ip ranges
+Search instead for KOREAnetwork ip ranges
+IP address ranges
+
+175.45.176.0/24     175.45.176.0–255
+175.45.177.0/24     175.45.177.0–255
+175.45.178.0/24     175.45.178.0–255
+175.45.179.0/24     175.45.179.0–255
+
+
+
+~~~
+
+OG
+# To block 116.10.191.* addresses:
+
+sudo iptables -A INPUT -s 116.10.191.0/24 -j DROP
+
+# To block 116.10.*.* addresses:
+
+sudo iptables -A INPUT -s 116.10.0.0/16 -j DROP
+
+# To block 116.*.*.* addresses:
+
+sudo iptables -A INPUT -s 116.0.0.0/8 -j DROP
+
+
+~~
+EDIT
+# To block 116.10.191.* addresses:
+
+sudo iptables -A INPUT -s 116.10.191.0/24 -j DROP
+
+# To block 116.10.*.* addresses:
+
+sudo iptables -A INPUT -s 116.10.0.0/16 -j DROP
+
+# To block 116.*.*.* addresses:
+
+sudo iptables -A INPUT -s 116.0.0.0/8 -j DROP
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2.20.253.0      2.20.255.255
+
+sudo iptables -A INPUT -s 2.20.253.*/8 -j DROP
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To Whitelist an IP
+
+iptables -A INPUT -s 192.168.0.1 -j ACCEPT
+
+
+
+
+
+
+
+
