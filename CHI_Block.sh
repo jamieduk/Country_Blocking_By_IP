@@ -14,6 +14,7 @@ sudo iptables -A INPUT -s 1.1.0.0/8 -j DROP
 sudo iptables -A INPUT -s 1.1.0.0/24 -j DROP
 echo "Blocking Complete!"
 echo ""
+bash menu.sh
 ##   CHINA
 #	
 #    Begin IP Address	End IP Address	

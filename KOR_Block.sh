@@ -13,14 +13,14 @@ sudo iptables -A INPUT -s 175.45.179/8 -j DROP
 sudo iptables -A INPUT -s 175.45.179/24 -j DROP
 echo "Blocking Complete!"
 echo ""
+bash menu.sh
 #   KOREA
 #
 #Showing results for KOREA network ip ranges
 #Search instead for KOREAnetwork ip ranges
 #IP address ranges
-
+#
 #   175.45.176.0/24     
 #   175.45.177.0/24     
 #   175.45.178.0/24     
 #   175.45.179.0/24
-

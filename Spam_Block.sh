@@ -9,6 +9,7 @@ sudo iptables -A INPUT -s 5.188.48.0/24 -j DROP
 #  5.188.48.217 
 echo "Blocking Complete!"
 echo ""
+bash menu.sh
 #
 #
 #   RUSSAIN
