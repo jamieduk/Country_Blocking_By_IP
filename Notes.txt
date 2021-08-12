@@ -1,3 +1,9 @@
+Country Blocking By IP
+
+
+https://jnet.forumotion.com/t1761-country-blocking-by-ip#2723
+
+
 sudo iptables -A INPUT -s 2xx.3x.1xx.0/24 -j DROP
 
 We can also use the command to block the range of IP addresses
