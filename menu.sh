@@ -1,6 +1,8 @@
 #!/bin/bash
-# (c) J~Net 2020
-# jnet.forumotion.com/t1699-lanbackup-2020-by-jnet#2624
+# (c)J~Net 2021
+# jnet.sytes.net
+#
+# https://jnet.forumotion.com/t1761-country-blocking-by-ip
 #
 # ./menu.sh
 #

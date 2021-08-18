@@ -1,4 +1,9 @@
 #!/bin/bash
+# (c)J~Net 2021
+# jnet.sytes.net
+#
+# https://jnet.forumotion.com/t1761-country-blocking-by-ip
+#
 c="Korea"
 echo "Blocking Country: $c"
 echo ""

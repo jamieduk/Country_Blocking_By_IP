@@ -1,4 +1,9 @@
 #!/bin/bash
+# (c)J~Net 2021
+# jnet.sytes.net
+#
+# https://jnet.forumotion.com/t1761-country-blocking-by-ip
+#
 c="General Spam"
 ip="5.188.48.0"
 echo "Blocking Country: $c"
